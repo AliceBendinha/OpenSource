@@ -1,0 +1,14 @@
+
+    :root {
+      --prim:#2D9C6E;
+      --prim-soft:#6FD7A9;
+      --bg:#F6FBF9;
+      --card:#FFFFFF;
+    }
+    body { padding-top:56px; background:var(--bg); color:#0b2f1a; }
+    .navbar { background:var(--prim) !important; }
+    .btn-primary { background:var(--prim); border-color:var(--prim); }
+    .btn-primary:hover { background:var(--prim-soft); border-color:var(--prim-soft); }
+    #map { height:420px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.08); }
+    .card-surface { background:var(--card); border-radius:10px; padding:12px; box-shadow:0 1px 3px rgba(0,0,0,0.04); }
+    .api-error { background:#fff3cd; border:1px solid #ffeeba; padding:8px; border-radius:6px; }

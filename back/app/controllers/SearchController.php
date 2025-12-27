@@ -1,0 +1,2 @@
+<?php
+class SearchController { private $model; public function __construct($pdo){ $this->model=new SearchModel($pdo);} public function search($q){ if(!$q){ echo json_encode(['products'=>[],'services'=>[]]); return; } $products=$this->model->searchProducts($q); $services=$this->model->searchServices($q); $this->model->log($q,'produto',null); echo json_encode(['products'=>$products,'services'=>$services]); } }

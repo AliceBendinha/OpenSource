@@ -1,0 +1,9 @@
+{
+    "require": {
+        "dompdf/dompdf": "^3.1",
+        "firebase/php-jwt": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
